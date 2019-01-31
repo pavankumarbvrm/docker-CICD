@@ -10,7 +10,6 @@ phases:
   build:
     commands:
       - echo build Docker image on `date`
-      - cd src
       - docker build -t docker-nginx-app:latest .
       - docker tag docker-nginx-app:latest 984242085940.dkr.ecr.us-east-1.amazonaws.com/docker-nginx:latest
   post_build:
