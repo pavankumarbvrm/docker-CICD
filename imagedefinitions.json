@@ -1,9 +1,9 @@
 {
   "taskDefinition": {
-    "family": "docker-nginx",
+    "family": "first-run-task-definition",
     "containerDefinitions": [
       {
-        "name": "docker-nginx",
+        "name": "nginx-service",
         "image": "984242085940.dkr.ecr.us-east-1.amazonaws.com/docker-nginx:latest",
         "cpu": 100,
         "portMappings": [
