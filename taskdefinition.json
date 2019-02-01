@@ -1,0 +1,31 @@
+[
+  {
+    "name": "mytestapp-webgui",
+    "image": "984242085940.dkr.ecr.us-east-1.amazonaws.com/docker-nginx:latest",
+    "cpu": 0,
+    "memory": 500,
+    "memoryReservation": 75,
+    "portMappings": [],
+    "essential": true,
+    "entryPoint": [],
+    "command": [],
+    "environment": [
+      {
+        "name": "ENV_DEBUG",
+        "value": "false"
+      }
+    ],
+    "mountPoints": [],
+    "volumesFrom": [],
+    "workingDirectory": "/usr/share/nginx/html/",
+    "disableNetworking": false,
+    "privileged": true,
+    "readonlyRootFilesystem": false,
+    "dnsServers": [],
+    "dnsSearchDomains": [],
+    "dockerSecurityOptions": [],
+    "logConfiguration": {
+      "logDriver": "json-file"
+    }
+  }
+]
